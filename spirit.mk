@@ -2,6 +2,8 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
 
+include device/lge/mako/sm.mk
+
 # Inherit some common SR stuff.
 $(call inherit-product, vendor/spirit/config/common_phone.mk)
 
